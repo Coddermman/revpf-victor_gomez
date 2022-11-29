@@ -1,0 +1,169 @@
+.header{
+    background-image: url("../imagenes/AA13GWcx.jpeg");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.margen{
+    margin-top:  50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+};
+.marg{
+    margin-top:  10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.margin{
+    padding: 10px;
+}
+
+.ta1{
+    animation-name: tituloInicial2;
+    animation-duration:9s;
+    animation-iteration-count: 1 ;
+}
+@keyframes tituloInicial2{
+    from{
+        transform: translateY(-100px);
+        width:2fr;
+        color: white; 
+
+    }
+
+    to{
+        transform: translateY(0);
+    } 
+}
+
+
+        
+
+.ty{
+    justify-content: space-evenly;
+}
+
+.img{
+    
+    justify-content: center;
+    background-size: cover;
+   
+}
+
+.dist{
+    display: flex;
+    justify-content: center;
+}
+
+#logot{
+    width: 10%;
+
+}
+
+.footer{
+    width: 100%;
+   background-color: aquamarine;
+    height: auto;
+    border: solid 1px black;
+    
+}
+.marcos2{
+    display: flex;
+    border: solid 2px black ;
+    width: 100%;
+    height: auto;
+    margin: 50px;
+ 
+}
+
+#nojoda{
+    display: flex;
+    justify-content: space-between;
+}
+.marcos{
+    border: solid 2px black ;
+    width: 100%;
+    height: 40vh;
+margin-top: 20px;
+}
+    
+/*animación del logo */
+.logo{
+    animation-name: logo;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes logo{
+        from{
+            transform: translateX(1000px);
+
+
+        }
+        to{
+            transform: translateX(0);
+        }
+}
+
+/*El responsive para el logo y header*/
+/* RESPONSIVE DESIGN*/
+/*Desktop estilos*/
+@media (min-width:1024px) {
+        
+    h1{
+        color: rgb(255, 0, 0);
+        text-align: center;
+        font-size:6rem ;
+        font-style: italic;
+        width: 100%;
+    }
+    
+    h2{
+        color: white;
+        background-color: orangered;
+        font-size: 1.5rem;
+    }
+  
+} 
+
+/*Tablet estilos*/
+@media (min-width:440px) and (max-width:1023px) {
+    h1{
+        color: orangered;
+        text-align: center;
+        font-size: 3rem ;
+        width: 100%;
+        
+    }
+   
+    h2{
+        color: white;
+        background-color: orangered;
+        font-size: 1.5rem;
+        
+    }
+  }
+/*Smartphone estilos*/
+@media (max-width:440px) {
+    h1{
+        color: orangered;
+        text-align: center;
+        font-size: 2rem ;
+        width: 100%;
+    }
+        h2{
+        color: white;
+        background-color: orangered;
+        font-size: .5rem;
+    }
+        
+    }
